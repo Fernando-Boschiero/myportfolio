@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>OST Translations</title>
+  </head>
+  <body class="academic_translations">
+    <nav>
+      <ul>
+        <li><a href="index.html" data-i18n="navHome">HOME</a></li>
+        <li><a href="index.html#work" data-i18n="navWork">WORK</a></li>
+        <li><a href="index.html#contact" data-i18n="navContact">CONTACT</a></li>
+        <li>FERNANDO <br />BOSCHIERO</li>
+      </ul>
+    </nav>
+    <h2 class="academic_title work_titles" data-i18n="ostHeader">
+      IN THIS SECTION, YOU WILL FIND SAMPLES OF WORK INVOLVING THE TRANSLATION
+      AND EDITING OF TEXT EMBEDDED IN VIDEOS, GOING BEYOND SIMPLE SUBTITLING.
+    </h2>
+    <div class="sample_container">
+      <div class="container__header">
+        <h3 data-i18n="ostSamples">ON-SCREEN TEXT TRANSLATIONS</h3>
+      </div>
+
+      <div class="video_sample">
+        <video controls>
+          <source src="images/ost_sample-1.mp4" />
+        </video>
+      </div>
+
+      <div class="video_sample">
+        <video controls>
+          <source src="images/ost_sample-2.mp4" />
+        </video>
+      </div>
+
+      <div class="video_sample">
+        <video controls>
+          <source src="images/ost_sample-3.mp4" />
+        </video>
+      </div>
+
+      <div class="video_sample">
+        <video controls>
+          <source src="images/ost_sample-4.mp4" />
+        </video>
+      </div>
+    </div>
+    <!-- Modal for showing fullscreen images once clicked -->
+    <div class="modal" id="imgModal">
+      <img id="fullImg" />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

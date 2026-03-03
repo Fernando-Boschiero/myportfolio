@@ -1,0 +1,539 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Fernando Boschiero | Portfolio</title>
+  </head>
+  <body>
+    <section class="home-section" id="home">
+      <div class="card_home">
+        <div class="card__article">
+          <div class="card__data">
+            <img
+              src="images/portfolio-image2.png"
+              alt="image"
+              class="card__perfil"
+            />
+            <h3 class="card__name">Fernando Boschiero</h3>
+            <p class="card__description" data-i18n="homeText">
+              Freelance pt-BR/en-US Translator<br />Aspiring Frontend Developer
+            </p>
+          </div>
+
+          <div class="card__actions">
+            <button class="card__button" id="card-btn">
+              <i class="ri-more-fill card__more"></i>
+              <i class="ri-close-line card__close"></i>
+            </button>
+
+            <div class="card__menu" id="card-menu">
+              <div class="card__icons">
+                <a href="#about-me" class="card__icon">
+                  <i class="ri-info-i"></i>
+                  <span class="tooltip" data-i18n="aboutMeIcon">About Me</span>
+                </a>
+
+                <a href="#resume" class="card__icon">
+                  <i class="ri-info-card-line"></i>
+                  <span class="tooltip" data-i18n="resumeIcon">Resume</span>
+                </a>
+              </div>
+
+              <div class="card__icons">
+                <a href="#work" class="card__icon">
+                  <i class="ri-hammer-line"></i>
+                  <span class="tooltip" data-i18n="workSamplesIcon"
+                    >Work Samples</span
+                  >
+                </a>
+
+                <a href="#contact" class="card__icon">
+                  <i class="ri-message-3-line"> </i>
+                  <span class="tooltip" data-i18n="contactIcon">Contact</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <p class="lang-select">
+            <a href="#" data-lang="pt">PT</a> |
+            <a href="#" data-lang="en">EN</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-me-section" id="about-me">
+      <div class="about-me-div">
+        <h2 data-i18n="aboutMeHeader">ABOUT ME</h2>
+        <p data-i18n="aboutMeParagraph">
+          Hi, I’m Fernando Boschiero, a freelancer since 2019. My recent work
+          has focused on Portuguese-BR ↔ English-US
+          <span class="bold">
+            translation, subtitling, audiovisual localization, and minor video
+            editing
+          </span>
+          — helping clients communicate clearly across languages. I’m now
+          looking to slowly shift into
+          <span class="bold">Frontend Development</span> (this Portfolio is my
+          2nd real-world project).<br />
+          Before freelancing, I spent over a decade at IBM in IT auditing,
+          compliance, and systems management — a career that took me to 24+
+          countries and gave me rich international and cross-cultural
+          experience. Later, as co-owner and Brewmaster of a craft beer pub, I
+          honed creativity, discipline, and leadership. <br />Outside of work,
+          I’m supported by a wonderful wife and our baby daughter. I also enjoy
+          music (I once played in a band), cooking, reading, playing tennis, and
+          exploring good food. <br />Bringing together a
+          <span class="bold"
+            >bilingual upbringing (I spent a good part of my childhood in the
+            U.S.)</span
+          >
+          with experience in IT, entrepreneurship, and translation, I offer
+          clients not just linguistic precision but also cultural fluency and
+          professionalism. As I grow into frontend development, I aim to deliver
+          the same dedication in building seamless, user-friendly digital
+          experiences.
+        </p>
+      </div>
+    </section>
+
+    <section class="resume-section" id="resume">
+      <h2 class="resume-section-title" data-i18n="resumeTitle">RESUME</h2>
+      <div class="resume-container">
+        <div class="resume-item1">
+          <img
+            src="images/portfolio-image.png"
+            alt="Image of Fernando Boschiero"
+          />
+          <h2 data-i18n="resumeContact">CONTACT</h2>
+          <span class="resume-span"></span>
+          <a href="mailto:ofernandotraduz@gmail.com">
+            ofernandotraduz@gmail.com</a
+          >
+          <br />
+          <a href="https://www.fernandoboschiero.com.br">
+            www.fernandoboschiero.com.br</a
+          >
+          <h2 data-i18n="resumeEducation">EDUCATION</h2>
+          <span class="resume-span"></span>
+
+          <p data-i18n="eduPsych">
+            Bachelor’s Degree in Psychology<br />
+            <span class="second-row-font">PUCCAMP (December 2006)</span>
+          </p>
+          <h2 data-i18n="resumeLanguages">LANGUAGES</h2>
+          <span class="resume-span"></span>
+          <ul>
+            <li data-i18n="langEn">English — Native Proficiency</li>
+            <li data-i18n="langPt">Portuguese — Native Proficiency</li>
+            <li data-i18n="langIt">Italian — Basic Proficiency</li>
+          </ul>
+          <h2 data-i18n="resumeSkills">TECHNICAL SKILLS</h2>
+          <span class="resume-span"></span>
+          <ul class="certifications-ul">
+            <li data-i18n="skillWeb">
+              <span>
+                Web & Design Tools: HTML5, CSS, JavaScript, Adobe Photoshop,
+                Illustrator, Premiere Pro
+              </span>
+            </li>
+
+            <li data-i18n="skillLoc">
+              <span>
+                Localization Tools: Trados, MemoQ, Aegisub, Subtitle Edit
+              </span>
+            </li>
+
+            <li data-i18n="skillIT">
+              <span>
+                IT Systems & Platforms: Microsoft Office, Windows Server
+                NT/2000/2003/2008, Active Directory, VMware, IBM xSeries
+              </span>
+            </li>
+          </ul>
+          <h2 data-i18n="resumeCerts">CERTIFICATIONS</h2>
+          <span class="resume-span"></span>
+          <ul class="certifications-ul">
+            <li data-i18n="freeCodeCert">
+              <span>
+                FreeCodeCamp: Certified Full Stack Developer Curriculum —
+                Ongoing
+              </span>
+            </li>
+
+            <li data-i18n="toeicCert">
+              <span>
+                TOEIC (Test of English for International Communication) — Score
+                of 950 out of 990
+              </span>
+            </li>
+
+            <li>
+              <span>
+                FreeCodeCamp: Responsive Web Design (Aprox. 300 hour-course)
+              </span>
+            </li>
+
+            <li>
+              <span>
+                FreeCodeCamp: JavaScript Algorithms and Data Structures (Aprox.
+                300 hour-course)
+              </span>
+            </li>
+
+            <li>
+              <span>
+                CRISC: Certified in Risk and Information Systems Control
+              </span>
+            </li>
+
+            <li>
+              <span>
+                70-290 Managing and Maintaining a Microsoft Windows Server 2003
+                Environment (MCP)
+              </span>
+            </li>
+
+            <li>
+              <span>
+                70-291 Implementing, Managing, and Maintaining a Microsoft
+                Windows Server 2003 Network Infrastructure (MCP)
+              </span>
+            </li>
+
+            <li>
+              <span>
+                70-620: TS: Configuring Microsoft Windows Vista Client (MCTS)
+              </span>
+            </li>
+
+            <li>
+              <span>
+                Citrix XenApp 5 for Windows Server 2003: Administration (CCA)
+              </span>
+            </li>
+          </ul>
+        </div>
+        <div class="resume-item2">
+          <h2>FERNANDO BOSCHIERO</h2>
+          <p data-i18n="homeText">
+            FREELANCE pt-BR/en-US TRANSLATOR<br />ASPIRING FRONTEND DEVELOPER
+          </p>
+          <h2 class="work-experience" data-i18n="resumeWork">
+            WORK EXPERIENCE
+          </h2>
+          <span class="resume-item2-span"></span>
+          <p data-i18n="jobdate1">July 2019 — Present<br /></p>
+          <span class="bold">FREELANCE TRANSLATOR</span>
+          <ul>
+            <li data-i18n="freeGen">General translation</li>
+            <li data-i18n="freeSub">Subtitling</li>
+            <li data-i18n="freeAV">
+              Audiovisual translations (translation of on-screen text, either in
+              photos or videos)
+            </li>
+            <li data-i18n="freeVideo">Video editing</li>
+          </ul>
+          <span class="resume-item2-span"></span>
+          <p data-i18n="jobdate2">November 2016 — July 2019<br /></p>
+          <span class="bold" data-i18n="jobBrewpub"
+            >CO-OWNER CANECO BREWPUB</span
+          >
+          <ul>
+            <li>
+              Brewpub owner. Acted as Brewmaster and managed bar/restaurant
+              during working hours.
+            </li>
+          </ul>
+          <span class="resume-item2-span"></span>
+          <p data-i18n="jobdate3">February 2016 — November 2016<br /></p>
+          <span class="bold" data-i18n="jobArchitect"
+            >IBM – Process Architect</span
+          >
+          <ul>
+            <li data-i18n="jobArch1">
+              Compliance lead for Latin America; owner of global systems access
+              control processes
+            </li>
+            <li data-i18n="jobArch2">
+              Managed, edited, and monitored global processes
+            </li>
+            <li data-i18n="jobArch3">
+              Oversaw audits and advised executives on compliance risks
+            </li>
+          </ul>
+          <span class="resume-item2-span"></span>
+
+          <p data-i18n="jobdate4">November 2012 — February 2016<br /></p>
+          <span class="bold" data-i18n="jobAuditor"
+            >IBM – Corporate IT Auditor</span
+          >
+          <ul>
+            <li data-i18n="jobAud1">
+              Lead auditor for global engagements, including 1-month
+              international audits across all continents
+            </li>
+            <li data-i18n="jobAud2">
+              Conducted information security risk-based audits and compliance
+              reviews
+            </li>
+            <li data-i18n="jobAud3">
+              Evaluated delivery against contracts, policies, and security
+              standards
+            </li>
+            <li data-i18n="jobAud4">
+              Produced reports driving changes to global processes
+            </li>
+            <li data-i18n="jobAud5">
+              Partnered with senior executives in English-speaking environments
+            </li>
+          </ul>
+          <span class="resume-item2-span"></span>
+
+          <p data-i18n="jobdate5">April 2011 — November 2012<br /></p>
+          <span class="bold" data-i18n="jobFocal"
+            >IBM – Audit & Compliance Focal Point</span
+          >
+          <ul>
+            <li data-i18n="jobFocal1">
+              Primary contact for audits in distributed systems (Unix, Windows,
+              VMware)
+            </li>
+            <li data-i18n="jobFocal2">
+              Managed compliance calendar and risk reviews
+            </li>
+            <li data-i18n="jobFocal3">
+              Designed/implemented procedures and trained teams on compliance
+              policies
+            </li>
+          </ul>
+          <span class="resume-item2-span"></span>
+
+          <p data-i18n="jobdate6">February 2009 — April 2011<br /></p>
+          <span class="bold" data-i18n="jobSME"
+            >IBM – Subject Matter Expert</span
+          >
+          <ul>
+            <li data-i18n="jobSME1">
+              Lead IT contact for Windows/VMware platforms in global account
+            </li>
+            <li data-i18n="jobSME2">
+              Ensured system uptime and compliance with security standards
+            </li>
+            <li data-i18n="jobSME3">
+              Guided IT architecture and managed resulting projects
+            </li>
+            <li data-i18n="jobSME4">
+              Oversaw process improvements and service quality
+            </li>
+            <li data-i18n="jobSME5">
+              Led team in India handling day-to-day Windows server support
+            </li>
+          </ul>
+          <span class="resume-item2-span"></span>
+          <p data-i18n="jobdate7">November 2006 — July 2008<br /></p>
+          <span class="bold" data-i18n="jobNOC"
+            >Problem & Change Management Analyst / Network Management Center
+            Analyst</span
+          >
+          <ul>
+            <li data-i18n="jobNOC1">
+              Managed change records and problem incidents; produced weekly
+              reports and led change meetings.
+            </li>
+            <li data-i18n="jobNOC2">
+              Coordinated critical situations by engaging teams, developing
+              timelines, and mediating calls.
+            </li>
+            <li data-i18n="jobNOC3">
+              Monitored network connectivity; performed 1st-level
+              troubleshooting on Cisco devices and DNS/FTP issues.
+            </li>
+            <li data-i18n="jobNOC4">
+              Managed network printers; handled RMA requests with vendors.
+            </li>
+          </ul>
+          <span class="resume-item2-span"></span>
+
+          <p data-i18n="jobdate8">March 2006 — November 2006<br /></p>
+          <span class="bold" data-i18n="jobITIntern"
+            >IT Consultant (Procwork) — HR Internship</span
+          >
+          <ul>
+            <li data-i18n="jobHRScreen">
+              Screened resumes, interviewed candidates, and conducted English
+              proficiency evaluations.
+            </li>
+          </ul>
+          <span class="resume-item2-span"></span>
+
+          <p data-i18n="jobdate9">June 2005 — November 2005<br /></p>
+          <span class="bold" data-i18n="jobHRIntern"
+            >HR Consultant (Grupo Foco) — Internship</span
+          >
+          <ul>
+            <li data-i18n="jobHRScreen">
+              Screened resumes, interviewed candidates, and conducted English
+              proficiency evaluations.
+            </li>
+          </ul>
+          <span class="resume-item2-span"></span>
+
+          <p data-i18n="jobdate10">January 2003 — May 2004<br /></p>
+          <span class="bold" data-i18n="jobTeacher"
+            >English Teacher (Planet Idiomas Cambuí)</span
+          >
+          <ul>
+            <li data-i18n="jobTeach">
+              Taught English to students of all levels (beginner to advanced).
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="work-section" id="work">
+      <h2 data-i18n="workTitle">WORK SAMPLES</h2>
+      <div class="card_container">
+        <div class="card_work">
+          <a href="academicTranslations.html"
+            ><img
+              src="images/academic-articles.jpg"
+              alt="Image of bacteria"
+              class="card__bg"
+          /></a>
+          <div class="card__data">
+            <h3 class="card__name" data-i18n="cardAcademic">
+              Academic Translations
+            </h3>
+          </div>
+        </div>
+
+        <div class="card_work">
+          <a href="generalTranslations.html"
+            ><img
+              src="images/general-translations.png"
+              alt="Image of document translation"
+              class="card__bg general_translations"
+          /></a>
+          <div class="card__data">
+            <h3 class="card__name" data-i18n="cardGeneral">
+              General Translations
+            </h3>
+          </div>
+        </div>
+
+        <div class="card_work">
+          <a href="ostTranslations.html"
+            ><img
+              src="images/OST-translations.jpg"
+              alt="Image of bacteria"
+              class="card__bg ost_translations"
+          /></a>
+          <div class="card__data">
+            <h3 class="card__name" data-i18n="cardOST">
+              On-Screen Text Translations
+            </h3>
+          </div>
+        </div>
+
+        <div class="card_work">
+          <a href="subtitleSamples.html"
+            ><img
+              src="images/subtitling-samples.png"
+              alt="Image of bacteria"
+              class="card__bg ost_translations"
+          /></a>
+          <div class="card__data">
+            <h3 class="card__name" data-i18n="cardSubtitling">
+              Subtitling Samples
+            </h3>
+          </div>
+        </div>
+
+        <div class="card_work">
+          <a href="frontEnd.html"
+            ><img
+              src="images/frontend-development.png"
+              alt="Image of bacteria"
+              class="card__bg ost_translations"
+          /></a>
+          <div class="card__data">
+            <h3 class="card__name" data-i18n="cardFrontend">
+              Frontend Projects
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact-section" id="contact">
+      <h2 data-i18n="contactHeader">CONTACT</h2>
+      <div class="contact-message">
+        <p>
+          <span class="c-message-title bold" data-i18n="contactTitle"
+            >LET'S CONNECT!</span
+          ><br />
+          <span data-i18n="letsConnect"
+            >If you need translation, localization, or frontend support, I’d be
+            happy to talk about your project. Fill out the form below or send me
+            an email/WhatsApp message, and I’ll get back to you soon.</span
+          >
+        </p>
+      </div>
+      <div class="form-wrapper">
+        <div class="form-container">
+          <form
+            class="form"
+            action="https://formsubmit.co/ofernandotraduz@gmail.com"
+            method="POST"
+          >
+            <div>
+              <label for="name" class="form-label" data-i18n="labelName"
+                >NAME:</label
+              >
+              <input type="text" name="name" class="form-input" />
+            </div>
+            <div>
+              <label for="e-mail" class="form-label">E-MAIL:</label>
+              <input type="email" name="e-mail" class="form-input" required />
+            </div>
+            <div>
+              <label for="message" class="form-label" data-i18n="labelTextarea"
+                >TYPE MESSAGE HERE:</label
+              >
+            </div>
+            <textarea
+              name="message"
+              class="form-input"
+              placeholder="Hi, I would like to quote a translation/frontend service!"
+              required
+            ></textarea>
+            <button data-i18n="labelButton">SUBMIT</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <div class="whatsapp">
+      <a href="https://wa.me/5519991172880">
+        <img
+          class="whatsapp-logo"
+          alt="Chat on WhatsApp"
+          src="images/whatsapp-icon.png"
+        />
+      </a>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Frontend Samples</title>
+  </head>
+  <body class="academic_translations">
+    <nav>
+      <ul>
+        <li><a href="index.html" data-i18n="navHome">HOME</a></li>
+        <li><a href="index.html#work" data-i18n="navWork">WORK</a></li>
+        <li><a href="index.html#contact" data-i18n="navContact">CONTACT</a></li>
+        <li>FERNANDO <br />BOSCHIERO</li>
+      </ul>
+    </nav>
+    <h2 class="academic_title work_titles" data-i18n="frontendHeader">
+      THESE PROJECTS REFLECT MY ONGOING TRANSITION INTO FRONTEND DEVELOPMENT,
+      COMBINING TECHNICAL LEARNING WITH REAL-WORLD APPLICATION AND CONTINUOUS
+      IMPROVEMENT.
+    </h2>
+
+    <div class="sample_container">
+      <div class="container__header">
+        <h3 data-i18n="frontEndSamples">FRONTEND WORK SAMPLES</h3>
+      </div>
+
+      <div class="video_sample">
+        <video controls>
+          <source src="images/frontend-portfolio.mp4" />
+        </video>
+        <p class="sample__text">
+          <span data-i18n="frontEndFirst"
+            >This sample is from my 2nd real-world project in frontend
+            development.</span
+          ><br />
+        </p>
+      </div>
+      <div class="video_sample">
+        <video controls>
+          <source src="images/frontend-liguria.mp4" />
+        </video>
+        <p class="sample__text">
+          <span data-i18n="frontEndSecond"
+            >This sample is from my 1st real-world project in frontend
+            development</span
+          ><br />
+          <a
+            href="https://liguriapizza.com.br"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-i18n="linkWebsite"
+            >Link to Website</a
+          >
+        </p>
+      </div>
+    </div>
+    <!-- Modal for showing fullscreen images once clicked -->
+    <div class="modal" id="imgModal">
+      <img id="fullImg" />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
