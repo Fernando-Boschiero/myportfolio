@@ -342,6 +342,10 @@ nav ul li:last-child {
   margin-top: 20px;
 }
 
+.resume-item1 i {
+  margin-left: var(--resume-margin);
+}
+
 .resume-span {
   display: block;
   background-color: var(--main-font);
